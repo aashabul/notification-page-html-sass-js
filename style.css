@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 16px;
+  overflow-x: hidden;
+  background: #f6fafd;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body section {
+  background: #ffffff;
+  width: 50vw;
+  padding: 2rem 1.8rem 0 1.8rem;
+  border-radius: 0.5rem;
+}
+body section header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body section header .head {
+  display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+body section header .head button {
+  border: none;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  background: #093176;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+}
+body section header .action button {
+  font-size: 1rem;
+  color: #6a7587;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+body section header .action button:hover {
+  color: #093176;
+}
+body section main {
+  margin-top: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7rem;
+}
+body section main .unread {
+  background: #f6fafd;
+  cursor: pointer;
+}
+body section main .read {
+  background: transparent;
+}
+body section main #postComment {
+  display: flex;
+  justify-content: space-between;
+}
+body section main #postComment #postPhoto {
+  width: 50px;
+  cursor: pointer;
+}
+body section main #postComment .postComment-container {
+  display: flex;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+}
+body section main .notification {
+  display: flex;
+  align-items: flex-start;
+  justify-content: start;
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+}
+body section main .notification .img img {
+  width: 45px;
+}
+body section main .notification .text {
+  line-height: 1.5rem;
+  color: #6a7587;
+}
+body section main .notification .text .userName {
+  color: #000000;
+}
+body section main .notification .text .userName:hover {
+  color: #093176;
+}
+body section main .notification .text .userName,
+body section main .notification .text .postName,
+body section main .notification .text .groupName {
+  font-weight: 800;
+  cursor: pointer;
+}
+body section main .notification .text .postName {
+  color: #6a7587;
+}
+body section main .notification .text .postName:hover {
+  color: #093176;
+}
+body section main .notification .text .time {
+  color: #a1a4a7;
+}
+body section main .notification .text .groupName {
+  color: #093176;
+}
+body section main .notification .text .message {
+  border: 1px solid #e5eff9;
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  cursor: pointer;
+}
+body section main .notification .text .message:hover {
+  background: #e5eff9;
+}
+body section main .notification .text .red-dot {
+  font-size: 3rem;
+  font-weight: 800;
+  background: #dc2f02;
+  border-radius: 1rem;
+  height: 0.5rem;
+  width: 0.5rem;
+  display: inline-block;
+}
+
+@media (max-width: 400px) {
+  body {
+    background: #ffffff;
+  }
+  body section {
+    width: 90vw;
+    padding: 2rem 0;
+  }
+  body section header .head {
+    -moz-column-gap: 0.5rem;
+         column-gap: 0.5rem;
+  }
+  body section header .head h1 {
+    font-size: 1.2rem;
+  }
+  body section header .action button {
+    font-size: 0.9rem;
+  }
+  body section main .notification .text {
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+  }
+  body section main #postComment #postPhoto {
+    width: 40px;
+  }
+}/*# sourceMappingURL=style.css.map */
