@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/aashabul/notification-page-html-sass-js](https://github.com/aashabul/notification-page-html-sass-js)
 - Live Site URL: [https://silver-kelpie-ad315c.netlify.app/](https://silver-kelpie-ad315c.netlify.app/)
 
 ## My process
