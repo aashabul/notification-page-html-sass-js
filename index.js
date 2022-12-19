@@ -20,6 +20,8 @@ unread.forEach((item) => {
     item.children[1].children[0].children[2]
       ? item.children[1].children[0].children[2].remove("red-dot")
       : null;
-    count.innerHTML = Number(count.innerText) - 1;
+    if (Number(count.innerText) !== 0) {
+      count.innerHTML = Number(count.innerText) - 1;
+    }
   });
 });
